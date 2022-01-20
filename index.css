@@ -39,6 +39,7 @@ body {
     font-weight: bolder;
     padding-top: 10px;
     padding-left: 20px;
+    font-size: 40px;
 }
 
 .tog {
@@ -48,17 +49,53 @@ body {
 
 .txt {
     color: #b8860b;
+    text-align: justify;
 }
 
 .tx {
     color: #a0522d;
+    text-indent: 35px;
 }
 
 #dis {
     pointer-events: none;
-    opacity: 0.5;
+    opacity: 0.2;
 }
 
 .fa:hover {
     transform: scale(1.1);
+}
+
+#hire {
+    font-size: 30px;
+    color: red;
+    padding-bottom: 20px;
+    font-family: monospace;
+    font-weight: bolder;
+}
+
+.modal-header {
+    background-color: sandybrown;
+}
+
+.modal-footer {
+    background-color: darkslateblue;
+}
+
+#email {
+    font-weight: bold;
+    font-family: cursive;
+    color: slateblue;
+}
+
+#inp {
+    border-radius: 3px;
+    padding: 2px 10px;
+    font-size: 20px;
+}
+
+#btne {
+    border: none;
+    color: red;
+    font-size: 15px;
 }
